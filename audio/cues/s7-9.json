@@ -1,0 +1,84 @@
+{
+  "id": "s7-9",
+  "kind": "cue",
+  "text": "待到什麼日？孩來就什麼？",
+  "display": "待到什麼日？還來就什麼？",
+  "speaker": "旁白",
+  "voice": "Sulafat",
+  "prompt": "### DIRECTOR'S NOTES\nYou are the narrator of a warm animated story for 8-year-old Taiwanese children. Speak clear, gentle but lively Taiwanese Mandarin at a natural storytelling pace (never slow or dragging). Read ONLY the text below, verbatim, adding nothing.\n\n### TRANSCRIPT\n待到什麼日？孩來就什麼？",
+  "model": "gemini-3.8-flash-tts",
+  "audio": "audio/cues/s7-9.wav",
+  "duration": 2.89175,
+  "generatedAt": "2026-10-05T02:04:24.474Z",
+  "qa": {
+    "pass": true,
+    "threshold": 0.85,
+    "sim": 1,
+    "charSim": 0.8,
+    "pinyinSim": 1,
+    "lenRatio": 1,
+    "headSim": 1,
+    "rateOk": true,
+    "reasons": [],
+    "transcript": "帶到什麼日還來就什麼",
+    "headTranscript": "帶到什麼日,還來就什麼?",
+    "attempts": 4,
+    "chosenAttempt": 2,
+    "transcriber": "gemini-2.5-flash",
+    "history": [
+      {
+        "attempt": 1,
+        "pass": false,
+        "sim": 0.3,
+        "charSim": 0.1,
+        "pinyinSim": 0.3,
+        "lenRatio": 1,
+        "duration": 3.093,
+        "reasons": [
+          "sim 0.300 < 0.85",
+          "head does not match text start (0.30)"
+        ],
+        "transcript": "泰斗沙彌地\n海來九沙彌",
+        "headTranscript": "泰斗沙米迪, 海來九沙米。"
+      },
+      {
+        "attempt": 2,
+        "pass": true,
+        "sim": 1,
+        "charSim": 0.8,
+        "pinyinSim": 1,
+        "lenRatio": 1,
+        "duration": 2.892,
+        "reasons": [],
+        "transcript": "帶到什麼日還來就什麼",
+        "headTranscript": "帶到什麼日,還來就什麼?"
+      },
+      {
+        "attempt": 3,
+        "pass": true,
+        "sim": 1,
+        "charSim": 0.7,
+        "pinyinSim": 1,
+        "lenRatio": 1,
+        "duration": 2.184,
+        "reasons": [],
+        "transcript": "帶到什麼日還來救什麼",
+        "headTranscript": "帶到什麼日,還來救什麼?"
+      },
+      {
+        "attempt": 4,
+        "pass": false,
+        "sim": 0.8,
+        "charSim": 0.7,
+        "pinyinSim": 0.8,
+        "lenRatio": 1,
+        "duration": 2.613,
+        "reasons": [
+          "sim 0.800 < 0.85"
+        ],
+        "transcript": "帶到什麼日 還來叫什麼",
+        "headTranscript": "帶到什麼日，還來叫什麼？"
+      }
+    ]
+  }
+}

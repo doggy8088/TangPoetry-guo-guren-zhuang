@@ -1,0 +1,42 @@
+{
+  "id": "s3-5",
+  "kind": "cue",
+  "text": "「軒」，在這裡就是窗戶；「開軒」，就是打開窗戶。「面」，是面對著。「場」是曬穀的空地，「圃」是菜園。「開軒面場圃」：打開窗戶，就看見曬穀場和菜園！跟著念：開軒面場圃。",
+  "speaker": "旁白",
+  "voice": "Sulafat",
+  "prompt": "### DIRECTOR'S NOTES\nYou are the narrator of a warm animated story for 8-year-old Taiwanese children. Speak clear, gentle but lively Taiwanese Mandarin at a natural storytelling pace (never slow or dragging). Read ONLY the text below, verbatim, adding nothing.\n\n### TRANSCRIPT\n「軒」，在這裡就是窗戶；「開軒」，就是打開窗戶。「面」，是面對著。「場」是曬穀的空地，「圃」是菜園。「開軒面場圃」：打開窗戶，就看見曬穀場和菜園！跟著念：開軒面場圃。",
+  "model": "gemini-3.8-flash-tts",
+  "audio": "audio/cues/s3-5.wav",
+  "duration": 24.200833,
+  "generatedAt": "2026-10-04T17:42:26.480Z",
+  "qa": {
+    "pass": true,
+    "threshold": 0.85,
+    "sim": 1,
+    "charSim": 1,
+    "pinyinSim": null,
+    "lenRatio": 1,
+    "headSim": 0.875,
+    "rateOk": true,
+    "reasons": [],
+    "transcript": "軒，在這裡就是窗戶。開軒就是打開窗戶。面是面對著。場是曬穀的空地。圃是菜園。開軒面場圃。打開窗戶就看見曬穀場和菜園。跟著念。開軒面場圃。",
+    "headTranscript": "宣,在這裡就是窗戶。 開宣就是打開窗戶。",
+    "attempts": 1,
+    "chosenAttempt": 1,
+    "transcriber": "gemini-2.5-flash",
+    "history": [
+      {
+        "attempt": 1,
+        "pass": true,
+        "sim": 1,
+        "charSim": 1,
+        "pinyinSim": null,
+        "lenRatio": 1,
+        "duration": 24.201,
+        "reasons": [],
+        "transcript": "軒，在這裡就是窗戶。開軒就是打開窗戶。面是面對著。場是曬穀的空地。圃是菜園。開軒面場圃。打開窗戶就看見曬穀場和菜園。跟著念。開軒面場圃。",
+        "headTranscript": "宣,在這裡就是窗戶。 開宣就是打開窗戶。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "s0-1",
+  "kind": "cue",
+  "text": "小朋友，你有沒有去過好朋友家玩呢？一千多年前，唐朝有一位詩人叫孟浩然。他去老朋友的農莊作客，寫下了一首詩，叫做〈過故人莊〉。",
+  "speaker": "旁白",
+  "voice": "Sulafat",
+  "prompt": "### DIRECTOR'S NOTES\nYou are the narrator of a warm animated story for 8-year-old Taiwanese children. Speak clear, gentle but lively Taiwanese Mandarin at a natural storytelling pace (never slow or dragging). Read ONLY the text below, verbatim, adding nothing.\n\n### TRANSCRIPT\n小朋友，你有沒有去過好朋友家玩呢？一千多年前，唐朝有一位詩人叫孟浩然。他去老朋友的農莊作客，寫下了一首詩，叫做〈過故人莊〉。",
+  "model": "gemini-3.8-flash-tts",
+  "audio": "audio/cues/s0-1.wav",
+  "duration": 15.06125,
+  "generatedAt": "2026-10-04T17:41:45.994Z",
+  "qa": {
+    "pass": true,
+    "threshold": 0.85,
+    "sim": 0.927,
+    "charSim": 0.927,
+    "pinyinSim": null,
+    "lenRatio": 1.038,
+    "headSim": 0.87,
+    "rateOk": true,
+    "reasons": [],
+    "transcript": "小朋友,你有沒有去過好朋友家玩呢?1000多年前,唐朝有一位詩人叫孟浩然,他去老朋友的農莊做客,寫下了一首詩,叫做過故人莊。",
+    "headTranscript": "小朋友,你有沒有去過好朋友家玩呢? 1000多年前,唐",
+    "attempts": 1,
+    "chosenAttempt": 1,
+    "transcriber": "gemini-2.5-flash",
+    "history": [
+      {
+        "attempt": 1,
+        "pass": true,
+        "sim": 0.927,
+        "charSim": 0.927,
+        "pinyinSim": null,
+        "lenRatio": 1.038,
+        "duration": 15.061,
+        "reasons": [],
+        "transcript": "小朋友,你有沒有去過好朋友家玩呢?1000多年前,唐朝有一位詩人叫孟浩然,他去老朋友的農莊做客,寫下了一首詩,叫做過故人莊。",
+        "headTranscript": "小朋友,你有沒有去過好朋友家玩呢? 1000多年前,唐"
+      }
+    ]
+  }
+}

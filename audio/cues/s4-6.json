@@ -1,0 +1,42 @@
+{
+  "id": "s4-6",
+  "kind": "cue",
+  "text": "「桑麻」，就是桑樹和麻，代表農家平常的事。「話」，是說話、聊天。「把酒話桑麻」，就是拿著酒杯，聊著農家的大小事。跟著念：把酒話桑麻。",
+  "speaker": "旁白",
+  "voice": "Sulafat",
+  "prompt": "### DIRECTOR'S NOTES\nYou are the narrator of a warm animated story for 8-year-old Taiwanese children. Speak clear, gentle but lively Taiwanese Mandarin at a natural storytelling pace (never slow or dragging). Read ONLY the text below, verbatim, adding nothing.\n\n### TRANSCRIPT\n「桑麻」，就是桑樹和麻，代表農家平常的事。「話」，是說話、聊天。「把酒話桑麻」，就是拿著酒杯，聊著農家的大小事。跟著念：把酒話桑麻。",
+  "model": "gemini-3.8-flash-tts",
+  "audio": "audio/cues/s4-6.wav",
+  "duration": 16.998417,
+  "generatedAt": "2026-10-04T17:42:35.892Z",
+  "qa": {
+    "pass": true,
+    "threshold": 0.85,
+    "sim": 0.959,
+    "charSim": 0.959,
+    "pinyinSim": null,
+    "lenRatio": 1,
+    "headSim": 0.941,
+    "rateOk": true,
+    "reasons": [],
+    "transcript": "桑麻，就是桑樹和麻，代表農家平常的事。 話，是說話聊天。 拔酒話桑麻，就是拿著酒杯，聊著農家的大小事。 跟著念。 拔酒話桑麻。",
+    "headTranscript": "桑麻就是桑樹和麻,代表農家平常的事。 畫",
+    "attempts": 1,
+    "chosenAttempt": 1,
+    "transcriber": "gemini-2.5-flash",
+    "history": [
+      {
+        "attempt": 1,
+        "pass": true,
+        "sim": 0.959,
+        "charSim": 0.959,
+        "pinyinSim": null,
+        "lenRatio": 1,
+        "duration": 16.998,
+        "reasons": [],
+        "transcript": "桑麻，就是桑樹和麻，代表農家平常的事。 話，是說話聊天。 拔酒話桑麻，就是拿著酒杯，聊著農家的大小事。 跟著念。 拔酒話桑麻。",
+        "headTranscript": "桑麻就是桑樹和麻,代表農家平常的事。 畫"
+      }
+    ]
+  }
+}

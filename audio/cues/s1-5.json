@@ -1,0 +1,42 @@
+{
+  "id": "s1-5",
+  "kind": "cue",
+  "text": "小鳥小鳥，請幫我把邀請信送給阿庭！",
+  "speaker": "小玉",
+  "voice": "Leda",
+  "prompt": "### DIRECTOR'S NOTES\nYou are voicing 小玉, a cheerful, kind 8-year-old Taiwanese girl who lives on a farm. Speak natural, bright Taiwanese Mandarin in a child's voice at a lively pace. Read ONLY the line below, verbatim, adding nothing.\n\n### TRANSCRIPT\n小鳥小鳥，請幫我把邀請信送給阿庭！",
+  "model": "gemini-3.8-flash-tts",
+  "audio": "audio/cues/s1-5.wav",
+  "duration": 3.223042,
+  "generatedAt": "2026-10-04T17:41:51.349Z",
+  "qa": {
+    "pass": true,
+    "threshold": 0.85,
+    "sim": 0.933,
+    "charSim": 0.933,
+    "pinyinSim": null,
+    "lenRatio": 1,
+    "headSim": 0.933,
+    "rateOk": true,
+    "reasons": [],
+    "transcript": "小鳥小鳥，請幫我把邀請信送給阿廷。",
+    "headTranscript": "小鳥小鳥,請幫我把邀請信送給阿廷。",
+    "attempts": 1,
+    "chosenAttempt": 1,
+    "transcriber": "gemini-2.5-flash",
+    "history": [
+      {
+        "attempt": 1,
+        "pass": true,
+        "sim": 0.933,
+        "charSim": 0.933,
+        "pinyinSim": null,
+        "lenRatio": 1,
+        "duration": 3.223,
+        "reasons": [],
+        "transcript": "小鳥小鳥，請幫我把邀請信送給阿廷。",
+        "headTranscript": "小鳥小鳥,請幫我把邀請信送給阿廷。"
+      }
+    ]
+  }
+}

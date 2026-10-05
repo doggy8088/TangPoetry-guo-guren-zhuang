@@ -1,0 +1,42 @@
+{
+  "id": "s1-7",
+  "kind": "cue",
+  "text": "哇！是小玉的信！「阿庭，我準備了雞肉和黍飯，邀請你到我家田家作客！」太棒了，我馬上出發！",
+  "speaker": "阿庭",
+  "voice": "Puck",
+  "prompt": "### DIRECTOR'S NOTES\nYou are voicing 阿庭, a curious, energetic 8-year-old Taiwanese boy visiting the countryside. Speak natural, excited Taiwanese Mandarin in a child's voice at a lively pace. Read ONLY the line below, verbatim, adding nothing.\n\n### TRANSCRIPT\n哇！是小玉的信！「阿庭，我準備了雞肉和黍飯，邀請你到我家田家作客！」太棒了，我馬上出發！",
+  "model": "gemini-3.8-flash-tts",
+  "audio": "audio/cues/s1-7.wav",
+  "duration": 10.61275,
+  "generatedAt": "2026-10-04T17:41:59.807Z",
+  "qa": {
+    "pass": true,
+    "threshold": 0.85,
+    "sim": 0.943,
+    "charSim": 0.943,
+    "pinyinSim": null,
+    "lenRatio": 1,
+    "headSim": 0.833,
+    "rateOk": true,
+    "reasons": [],
+    "transcript": "哇,是小玉的信。 阿廷,我準備了雞肉和薯飯,邀請你到我家田家作客。 太棒了,我馬上出發。",
+    "headTranscript": "哇,是小玉的信。 阿婷,我準備了雞肉和薯飯,要",
+    "attempts": 1,
+    "chosenAttempt": 1,
+    "transcriber": "gemini-2.5-flash",
+    "history": [
+      {
+        "attempt": 1,
+        "pass": true,
+        "sim": 0.943,
+        "charSim": 0.943,
+        "pinyinSim": null,
+        "lenRatio": 1,
+        "duration": 10.613,
+        "reasons": [],
+        "transcript": "哇,是小玉的信。 阿廷,我準備了雞肉和薯飯,邀請你到我家田家作客。 太棒了,我馬上出發。",
+        "headTranscript": "哇,是小玉的信。 阿婷,我準備了雞肉和薯飯,要"
+      }
+    ]
+  }
+}

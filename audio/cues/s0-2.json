@@ -1,0 +1,42 @@
+{
+  "id": "s0-2",
+  "kind": "cue",
+  "text": "「過」，是拜訪的意思；「故人」，就是老朋友；「莊」，是鄉下的農莊。「過故人莊」，就是去拜訪老朋友的農莊！今天，就讓小玉和阿庭，帶我們一起走進這首詩吧！",
+  "speaker": "旁白",
+  "voice": "Sulafat",
+  "prompt": "### DIRECTOR'S NOTES\nYou are the narrator of a warm animated story for 8-year-old Taiwanese children. Speak clear, gentle but lively Taiwanese Mandarin at a natural storytelling pace (never slow or dragging). Read ONLY the text below, verbatim, adding nothing.\n\n### TRANSCRIPT\n「過」，是拜訪的意思；「故人」，就是老朋友；「莊」，是鄉下的農莊。「過故人莊」，就是去拜訪老朋友的農莊！今天，就讓小玉和阿庭，帶我們一起走進這首詩吧！",
+  "model": "gemini-3.8-flash-tts",
+  "audio": "audio/cues/s0-2.wav",
+  "duration": 15.853667,
+  "generatedAt": "2026-10-04T17:41:45.546Z",
+  "qa": {
+    "pass": true,
+    "threshold": 0.85,
+    "sim": 0.982,
+    "charSim": 0.982,
+    "pinyinSim": null,
+    "lenRatio": 1,
+    "headSim": 1,
+    "rateOk": true,
+    "reasons": [],
+    "transcript": "過是拜訪的意思。故人就是老朋友。莊是鄉下的農莊。過故人莊就是去拜訪老朋友的農莊。今天就讓小玉和阿廷帶我們一起走進這首詩吧。",
+    "headTranscript": "過是拜訪的意思, 故人就是老朋友, 莊是鄉下",
+    "attempts": 1,
+    "chosenAttempt": 1,
+    "transcriber": "gemini-2.5-flash",
+    "history": [
+      {
+        "attempt": 1,
+        "pass": true,
+        "sim": 0.982,
+        "charSim": 0.982,
+        "pinyinSim": null,
+        "lenRatio": 1,
+        "duration": 15.854,
+        "reasons": [],
+        "transcript": "過是拜訪的意思。故人就是老朋友。莊是鄉下的農莊。過故人莊就是去拜訪老朋友的農莊。今天就讓小玉和阿廷帶我們一起走進這首詩吧。",
+        "headTranscript": "過是拜訪的意思, 故人就是老朋友, 莊是鄉下"
+      }
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "id": "v01",
+  "kind": "vocab",
+  "word": "故人",
+  "text": "「故人」，老朋友。",
+  "speaker": "旁白",
+  "voice": "Sulafat",
+  "prompt": "### DIRECTOR'S NOTES\nYou are the narrator of a warm animated story for 8-year-old Taiwanese children. Speak clear, gentle but lively Taiwanese Mandarin at a natural storytelling pace (never slow or dragging). Read ONLY the text below, verbatim, adding nothing.\n\n### TRANSCRIPT\n「故人」，老朋友。",
+  "model": "gemini-3.8-flash-tts",
+  "audio": "audio/vocab/01.wav",
+  "duration": 2.468417,
+  "generatedAt": "2026-10-04T17:43:46.137Z",
+  "qa": {
+    "pass": true,
+    "threshold": 0.75,
+    "sim": 1,
+    "charSim": 1,
+    "pinyinSim": null,
+    "lenRatio": 1,
+    "headSim": 1,
+    "rateOk": true,
+    "reasons": [],
+    "transcript": "故人 老朋友",
+    "headTranscript": "故人 老朋友",
+    "attempts": 4,
+    "chosenAttempt": 4,
+    "transcriber": "gemini-2.5-flash",
+    "history": [
+      {
+        "attempt": 1,
+        "pass": false,
+        "sim": 0.179,
+        "charSim": 0.179,
+        "pinyinSim": null,
+        "lenRatio": 5.6,
+        "duration": 9.069,
+        "reasons": [
+          "sim 0.179 < 0.75",
+          "lenRatio 5.60 > 1.25",
+          "head does not match text start (0.00)",
+          "duration 9.07s > plausible 5.0s"
+        ],
+        "transcript": "大家好，我是熊寶寶故事的主持人。 還記得我們上次講的故人老朋友。",
+        "headTranscript": "大家好,我是熊寶寶故事的主持人。 還記得我們上次"
+      },
+      {
+        "attempt": 2,
+        "pass": false,
+        "sim": 0.25,
+        "charSim": 0.25,
+        "pinyinSim": null,
+        "lenRatio": 4,
+        "duration": 8.265,
+        "reasons": [
+          "sim 0.250 < 0.75",
+          "lenRatio 4.00 > 1.25",
+          "head does not match text start (0.00)",
+          "duration 8.26s > plausible 5.0s"
+        ],
+        "transcript": "好,那我們再來聽聽看,一下故人。 故人就是老朋友。",
+        "headTranscript": "好,那我們再來聽聽看,顧人, 顧人"
+      },
+      {
+        "attempt": 3,
+        "pass": false,
+        "sim": 0.061,
+        "charSim": 0.061,
+        "pinyinSim": null,
+        "lenRatio": 16.4,
+        "duration": 19.846,
+        "reasons": [
+          "sim 0.061 < 0.75",
+          "lenRatio 16.40 > 1.25",
+          "telltale [導演, 逐字, 台灣]",
+          "head telltale [narrator, taiwanese, director, notes, the, of, warm, animated, story]",
+          "head does not match text start (0.00)",
+          "duration 19.85s > plausible 5.0s"
+        ],
+        "transcript": "導演筆記：\n你是為八歲台灣兒童講述一個溫暖、生動故事的敘述者。\n請用清晰、溫和但活潑的台灣華語，以自然的說故事速度講述。\n切勿放慢或拖延。\n只讀下面的文字，逐字逐句，不添加任何內容。\n\n故人老朋友",
+        "headTranscript": "Director's notes. You're the narrator of a warm, animated story for eight-year-old Taiwanese children."
+      },
+      {
+        "attempt": 4,
+        "pass": true,
+        "sim": 1,
+        "charSim": 1,
+        "pinyinSim": null,
+        "lenRatio": 1,
+        "duration": 2.468,
+        "reasons": [],
+        "transcript": "故人 老朋友",
+        "headTranscript": "故人 老朋友"
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "v02",
+  "kind": "vocab",
+  "word": "莊",
+  "text": "「莊」，農莊、村莊。",
+  "speaker": "旁白",
+  "voice": "Sulafat",
+  "prompt": "### DIRECTOR'S NOTES\nYou are the narrator of a warm animated story for 8-year-old Taiwanese children. Speak clear, gentle but lively Taiwanese Mandarin at a natural storytelling pace (never slow or dragging). Read ONLY the text below, verbatim, adding nothing.\n\n### TRANSCRIPT\n「莊」，農莊、村莊。",
+  "model": "gemini-3.8-flash-tts",
+  "audio": "audio/vocab/02.wav",
+  "duration": 3.714583,
+  "generatedAt": "2026-10-04T17:43:21.304Z",
+  "qa": {
+    "pass": true,
+    "threshold": 0.75,
+    "sim": 1,
+    "charSim": 1,
+    "pinyinSim": null,
+    "lenRatio": 1,
+    "headSim": 1,
+    "rateOk": true,
+    "reasons": [],
+    "transcript": "莊、農莊、村莊。",
+    "headTranscript": "莊 農莊 村莊",
+    "attempts": 1,
+    "chosenAttempt": 1,
+    "transcriber": "gemini-2.5-flash",
+    "history": [
+      {
+        "attempt": 1,
+        "pass": true,
+        "sim": 1,
+        "charSim": 1,
+        "pinyinSim": null,
+        "lenRatio": 1,
+        "duration": 3.715,
+        "reasons": [],
+        "transcript": "莊、農莊、村莊。",
+        "headTranscript": "莊 農莊 村莊"
+      }
+    ]
+  }
+}

@@ -1,0 +1,653 @@
+{
+  "fps": 30,
+  "total": 479.376,
+  "scenes": [
+    {
+      "id": "s0",
+      "name": "片頭",
+      "start": 0,
+      "end": 33.165
+    },
+    {
+      "id": "s1",
+      "name": "邀請",
+      "start": 33.165,
+      "end": 118.228
+    },
+    {
+      "id": "s2",
+      "name": "路上",
+      "start": 118.228,
+      "end": 182.912
+    },
+    {
+      "id": "s3",
+      "name": "開窗",
+      "start": 182.912,
+      "end": 230.063
+    },
+    {
+      "id": "s4",
+      "name": "聊天",
+      "start": 230.063,
+      "end": 286.177
+    },
+    {
+      "id": "s5",
+      "name": "約定",
+      "start": 286.177,
+      "end": 343.477
+    },
+    {
+      "id": "s6",
+      "name": "圖像記憶",
+      "start": 343.477,
+      "end": 394.428
+    },
+    {
+      "id": "s7",
+      "name": "背誦挑戰",
+      "start": 394.428,
+      "end": 479.376
+    }
+  ],
+  "cues": [
+    {
+      "id": "s0-1",
+      "scene": "s0",
+      "speaker": "旁白",
+      "text": "小朋友，你有沒有去過好朋友家玩呢？一千多年前，唐朝有一位詩人叫孟浩然。他去老朋友的農莊作客，寫下了一首詩，叫做〈過故人莊〉。",
+      "start": 1,
+      "end": 16.061,
+      "duration": 15.061,
+      "audio": "audio/cues/s0-1.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s0-2",
+      "scene": "s0",
+      "speaker": "旁白",
+      "text": "「過」，是拜訪的意思；「故人」，就是老朋友；「莊」，是鄉下的農莊。「過故人莊」，就是去拜訪老朋友的農莊！今天，就讓小玉和阿庭，帶我們一起走進這首詩吧！",
+      "start": 16.511,
+      "end": 32.365,
+      "duration": 15.854,
+      "audio": "audio/cues/s0-2.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s1-1",
+      "scene": "s1",
+      "speaker": "旁白",
+      "text": "小玉住在一個小村子裡，家裡有田、有菜園，還養了好多雞。她和阿庭從小就是好朋友，是彼此的「故人」。",
+      "start": 33.765,
+      "end": 45.412,
+      "duration": 11.647,
+      "audio": "audio/cues/s1-1.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s1-2",
+      "scene": "s1",
+      "speaker": "小玉",
+      "text": "好久沒見到阿庭了！我來準備好吃的，邀請他來我家玩吧！",
+      "start": 45.862,
+      "end": 50.944,
+      "duration": 5.082,
+      "audio": "audio/cues/s1-2.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s1-3",
+      "scene": "s1",
+      "speaker": "旁白",
+      "text": "小玉忙進忙出。她煮了香噴噴的雞肉，還蒸了一鍋金黃色的黍飯。「黍」，是一種黃色的小米，煮起來香香黏黏的。「雞黍」合起來，就是農家招待客人最豐盛的大餐！",
+      "start": 51.394,
+      "end": 68.723,
+      "duration": 17.329,
+      "audio": "audio/cues/s1-3.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s1-4",
+      "scene": "s1",
+      "speaker": "旁白",
+      "text": "準備好了！「具」這個字，就是「準備」的意思。小玉「具雞黍」，就是準備好了雞肉和黍飯。",
+      "start": 69.173,
+      "end": 78.806,
+      "duration": 9.633,
+      "audio": "audio/cues/s1-4.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s1-5",
+      "scene": "s1",
+      "speaker": "小玉",
+      "text": "小鳥小鳥，請幫我把邀請信送給阿庭！",
+      "start": 79.256,
+      "end": 82.479,
+      "duration": 3.223,
+      "audio": "audio/cues/s1-5.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s1-6",
+      "scene": "s1",
+      "speaker": "旁白",
+      "text": "小鳥叼著信，飛呀飛，飛過田野，飛到阿庭家的窗前。",
+      "start": 82.929,
+      "end": 88.96,
+      "duration": 6.031,
+      "audio": "audio/cues/s1-6.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s1-7",
+      "scene": "s1",
+      "speaker": "阿庭",
+      "text": "哇！是小玉的信！「阿庭，我準備了雞肉和黍飯，邀請你到我家田家作客！」太棒了，我馬上出發！",
+      "start": 89.41,
+      "end": 100.023,
+      "duration": 10.613,
+      "audio": "audio/cues/s1-7.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s1-8",
+      "scene": "s1",
+      "speaker": "旁白",
+      "text": "「邀」是邀請，「至」是到，「田家」就是農家。第一句詩就是：老朋友準備了雞肉和黍飯，邀請我到她的農家作客。跟著念：故人具雞黍，邀我至田家。",
+      "start": 100.473,
+      "end": 117.428,
+      "duration": 16.955,
+      "audio": "audio/cues/s1-8.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s2-1",
+      "scene": "s2",
+      "speaker": "旁白",
+      "text": "阿庭背著小背包，走在鄉間小路上。遠遠地，他看見了小玉的村子。",
+      "start": 118.828,
+      "end": 125.595,
+      "duration": 6.767,
+      "audio": "audio/cues/s2-1.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s2-2",
+      "scene": "s2",
+      "speaker": "阿庭",
+      "text": "哇！村子旁邊的大樹，綠綠的、密密的，好像手牽著手，把整個村子圍起來了！",
+      "start": 126.045,
+      "end": 132.539,
+      "duration": 6.494,
+      "audio": "audio/cues/s2-2.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s2-3",
+      "scene": "s2",
+      "speaker": "旁白",
+      "text": "這就是「綠樹村邊合」。「合」，就是圍繞、環抱的意思。綠色的大樹在村子邊圍成一圈，就像給村子一個大大的擁抱！",
+      "start": 132.989,
+      "end": 146.702,
+      "duration": 13.713,
+      "audio": "audio/cues/s2-3.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s2-4",
+      "scene": "s2",
+      "speaker": "旁白",
+      "text": "再往遠處看，村子外面有一道矮矮的牆，叫做「郭」。郭的外面，青色的山坡斜斜地躺著，一路延伸到天邊。",
+      "start": 147.152,
+      "end": 157.8,
+      "duration": 10.648,
+      "audio": "audio/cues/s2-4.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s2-5",
+      "scene": "s2",
+      "speaker": "阿庭",
+      "text": "那座山斜斜的，好像一個睡著的綠色巨人喔！",
+      "start": 158.25,
+      "end": 162.843,
+      "duration": 4.593,
+      "audio": "audio/cues/s2-5.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s2-6",
+      "scene": "s2",
+      "speaker": "旁白",
+      "text": "「郭」是外城牆，「斜」就是斜斜地延伸。「青山郭外斜」，就是青山在城牆外面，斜斜地躺著。跟著念：綠樹村邊合，青山郭外斜。",
+      "start": 163.293,
+      "end": 182.112,
+      "duration": 18.819,
+      "audio": "audio/cues/s2-6.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s3-1",
+      "scene": "s3",
+      "speaker": "小玉",
+      "text": "阿庭！你終於來了！快進來，快進來！",
+      "start": 183.512,
+      "end": 186.638,
+      "duration": 3.126,
+      "audio": "audio/cues/s3-1.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s3-2",
+      "scene": "s3",
+      "speaker": "阿庭",
+      "text": "小玉！你家好香啊！",
+      "start": 187.088,
+      "end": 188.967,
+      "duration": 1.879,
+      "audio": "audio/cues/s3-2.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s3-3",
+      "scene": "s3",
+      "speaker": "旁白",
+      "text": "小玉帶阿庭走進屋子，然後走到窗邊，把窗戶「嘎吱」一聲推開。",
+      "start": 189.417,
+      "end": 196.024,
+      "duration": 6.607,
+      "audio": "audio/cues/s3-3.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s3-4",
+      "scene": "s3",
+      "speaker": "小玉",
+      "text": "你看！這是我家的「場」，曬穀子的地方；旁邊那一塊，是我家的「圃」，種了好多青菜！",
+      "start": 196.474,
+      "end": 204.612,
+      "duration": 8.138,
+      "audio": "audio/cues/s3-4.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s3-5",
+      "scene": "s3",
+      "speaker": "旁白",
+      "text": "「軒」，在這裡就是窗戶；「開軒」，就是打開窗戶。「面」，是面對著。「場」是曬穀的空地，「圃」是菜園。「開軒面場圃」：打開窗戶，就看見曬穀場和菜園！跟著念：開軒面場圃。",
+      "start": 205.062,
+      "end": 229.263,
+      "duration": 24.201,
+      "audio": "audio/cues/s3-5.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s4-1",
+      "scene": "s4",
+      "speaker": "旁白",
+      "text": "飯菜上桌囉！小玉的爸爸媽媽端起酒杯，小玉和阿庭則是端起了香香的桂花茶。",
+      "start": 230.663,
+      "end": 239.187,
+      "duration": 8.524,
+      "audio": "audio/cues/s4-1.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s4-2",
+      "scene": "s4",
+      "speaker": "旁白",
+      "text": "「把」，是拿著的意思；「把酒」，就是拿著酒杯。大家一邊吃飯，一邊開心地聊天。聊什麼呢？",
+      "start": 239.637,
+      "end": 250.066,
+      "duration": 10.429,
+      "audio": "audio/cues/s4-2.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s4-3",
+      "scene": "s4",
+      "speaker": "小玉",
+      "text": "我們家的桑樹長得好高了！桑葉可以餵蠶寶寶，蠶寶寶吐的絲可以做成漂亮的絲綢喔。",
+      "start": 250.516,
+      "end": 257.581,
+      "duration": 7.065,
+      "audio": "audio/cues/s4-3.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s4-4",
+      "scene": "s4",
+      "speaker": "阿庭",
+      "text": "那「麻」是什麼呢？",
+      "start": 258.031,
+      "end": 260.518,
+      "duration": 2.487,
+      "audio": "audio/cues/s4-4.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s4-5",
+      "scene": "s4",
+      "speaker": "小玉",
+      "text": "麻是一種植物，它的莖可以做成繩子和布，我身上這件衣服，就是麻做的！",
+      "start": 260.968,
+      "end": 267.929,
+      "duration": 6.961,
+      "audio": "audio/cues/s4-5.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s4-6",
+      "scene": "s4",
+      "speaker": "旁白",
+      "text": "「桑麻」，就是桑樹和麻，代表農家平常的事。「話」，是說話、聊天。「把酒話桑麻」，就是拿著酒杯，聊著農家的大小事。跟著念：把酒話桑麻。",
+      "start": 268.379,
+      "end": 285.377,
+      "duration": 16.998,
+      "audio": "audio/cues/s4-6.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s5-1",
+      "scene": "s5",
+      "speaker": "旁白",
+      "text": "太陽慢慢下山了，天空變成了橘紅色。阿庭要回家了。",
+      "start": 286.777,
+      "end": 293.424,
+      "duration": 6.647,
+      "audio": "audio/cues/s5-1.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s5-2",
+      "scene": "s5",
+      "speaker": "阿庭",
+      "text": "小玉，今天好開心！我還想再來玩！",
+      "start": 293.874,
+      "end": 296.862,
+      "duration": 2.988,
+      "audio": "audio/cues/s5-2.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s5-3",
+      "scene": "s5",
+      "speaker": "小玉",
+      "text": "那我們約好！「待到重陽日」，等到農曆九月九日重陽節那天，你「還來」，再來我家！那時候，我家院子裡的菊花會開得滿滿的，我們一起「就菊花」，一起賞菊花！",
+      "start": 297.312,
+      "end": 311.061,
+      "duration": 13.749,
+      "audio": "audio/cues/s5-3.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s5-4",
+      "scene": "s5",
+      "speaker": "旁白",
+      "text": "「待到」是等到；「重陽」是重陽節，農曆九月九日，是登高、賞菊花的節日。「還來」是再來；「就」，是靠近、親近的意思，「就菊花」就是去親近菊花、欣賞菊花。",
+      "start": 311.511,
+      "end": 329.831,
+      "duration": 18.32,
+      "audio": "audio/cues/s5-4.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s5-5",
+      "scene": "s5",
+      "speaker": "阿庭",
+      "text": "一言為定！重陽節，我一定再來！",
+      "start": 330.281,
+      "end": 333.222,
+      "duration": 2.941,
+      "audio": "audio/cues/s5-5.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s5-6",
+      "scene": "s5",
+      "speaker": "旁白",
+      "text": "兩個好朋友勾勾手指，約好了下一次見面。跟著念：待到重陽日，還來就菊花。",
+      "start": 333.672,
+      "end": 342.677,
+      "duration": 9.005,
+      "audio": "audio/cues/s5-6.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s6-1",
+      "scene": "s6",
+      "speaker": "旁白",
+      "text": "現在，我們用四張圖，把整首詩記起來！",
+      "start": 344.077,
+      "end": 348.348,
+      "duration": 4.271,
+      "audio": "audio/cues/s6-1.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s6-2",
+      "scene": "s6",
+      "speaker": "旁白",
+      "text": "第一張圖：一隻雞、一碗黃米飯、一封邀請信。故人具雞黍，邀我至田家。",
+      "start": 348.798,
+      "end": 358.113,
+      "duration": 9.315,
+      "audio": "audio/cues/s6-2.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s6-3",
+      "scene": "s6",
+      "speaker": "旁白",
+      "text": "第二張圖：綠樹牽著手圍成圈，青山斜斜躺在牆外。綠樹村邊合，青山郭外斜。",
+      "start": 358.563,
+      "end": 369.234,
+      "duration": 10.671,
+      "audio": "audio/cues/s6-3.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s6-4",
+      "scene": "s6",
+      "speaker": "旁白",
+      "text": "第三張圖：推開窗戶，看見曬穀場和菜園；拿起杯子，聊桑樹和麻。開軒面場圃，把酒話桑麻。",
+      "start": 369.684,
+      "end": 382.513,
+      "duration": 12.829,
+      "audio": "audio/cues/s6-4.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s6-5",
+      "scene": "s6",
+      "speaker": "旁白",
+      "text": "第四張圖：日曆翻到九月九，菊花開得滿院子。待到重陽日，還來就菊花。",
+      "start": 382.963,
+      "end": 393.628,
+      "duration": 10.665,
+      "audio": "audio/cues/s6-5.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s7-1",
+      "scene": "s7",
+      "speaker": "旁白",
+      "text": "我們一起把整首詩念一遍！過故人莊，孟浩然。故人具雞黍，邀我至田家。綠樹村邊合，青山郭外斜。開軒面場圃，把酒話桑麻。待到重陽日，還來就菊花。",
+      "start": 395.028,
+      "end": 414.012,
+      "duration": 18.984,
+      "audio": "audio/cues/s7-1.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s7-2",
+      "scene": "s7",
+      "speaker": "旁白",
+      "text": "接下來是挑戰時間！有些字會躲起來，你能看著圖把它們念出來嗎？",
+      "start": 414.462,
+      "end": 420.89,
+      "duration": 6.428,
+      "audio": "audio/cues/s7-2.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s7-3",
+      "scene": "s7",
+      "speaker": "旁白",
+      "text": "故人具什麼？邀我至哪裡？",
+      "start": 421.34,
+      "end": 424.133,
+      "duration": 2.793,
+      "audio": "audio/cues/s7-3.wav",
+      "pause_after": 2.5
+    },
+    {
+      "id": "s7-4",
+      "scene": "s7",
+      "speaker": "旁白",
+      "text": "故人具雞黍，邀我至田家！",
+      "start": 427.083,
+      "end": 429.766,
+      "duration": 2.683,
+      "audio": "audio/cues/s7-4.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s7-5",
+      "scene": "s7",
+      "speaker": "旁白",
+      "text": "綠樹村邊怎麼樣？青山郭外怎麼樣？",
+      "start": 430.216,
+      "end": 434.492,
+      "duration": 4.276,
+      "audio": "audio/cues/s7-5.wav",
+      "pause_after": 2.5
+    },
+    {
+      "id": "s7-6",
+      "scene": "s7",
+      "speaker": "旁白",
+      "text": "綠樹村邊合，青山郭外斜！",
+      "start": 437.442,
+      "end": 441.311,
+      "duration": 3.869,
+      "audio": "audio/cues/s7-6.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s7-7",
+      "scene": "s7",
+      "speaker": "旁白",
+      "text": "開軒面什麼？把酒話什麼？",
+      "start": 441.761,
+      "end": 446.851,
+      "duration": 5.09,
+      "audio": "audio/cues/s7-7.wav",
+      "pause_after": 2.5
+    },
+    {
+      "id": "s7-8",
+      "scene": "s7",
+      "speaker": "旁白",
+      "text": "開軒面場圃，把酒話桑麻！",
+      "start": 449.801,
+      "end": 453.343,
+      "duration": 3.542,
+      "audio": "audio/cues/s7-8.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s7-9",
+      "scene": "s7",
+      "speaker": "旁白",
+      "text": "待到什麼日？還來就什麼？",
+      "start": 453.793,
+      "end": 456.685,
+      "duration": 2.892,
+      "audio": "audio/cues/s7-9.wav",
+      "pause_after": 2.5
+    },
+    {
+      "id": "s7-10",
+      "scene": "s7",
+      "speaker": "旁白",
+      "text": "待到重陽日，還來就菊花！",
+      "start": 459.635,
+      "end": 463.305,
+      "duration": 3.67,
+      "audio": "audio/cues/s7-10.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s7-11",
+      "scene": "s7",
+      "speaker": "旁白",
+      "text": "太厲害了！你已經會背〈過故人莊〉了！",
+      "start": 463.755,
+      "end": 467.203,
+      "duration": 3.448,
+      "audio": "audio/cues/s7-11.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s7-12",
+      "scene": "s7",
+      "speaker": "小玉",
+      "text": "重陽節，記得來我家賞菊花喔！",
+      "start": 467.653,
+      "end": 470.297,
+      "duration": 2.644,
+      "audio": "audio/cues/s7-12.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s7-13",
+      "scene": "s7",
+      "speaker": "阿庭",
+      "text": "我們下次見！",
+      "start": 470.747,
+      "end": 471.82,
+      "duration": 1.073,
+      "audio": "audio/cues/s7-13.wav",
+      "pause_after": 0
+    },
+    {
+      "id": "s7-14",
+      "scene": "s7",
+      "speaker": "旁白",
+      "text": "下次，也邀請你的好朋友來家裡玩吧！",
+      "start": 472.27,
+      "end": 475.376,
+      "duration": 3.106,
+      "audio": "audio/cues/s7-14.wav",
+      "pause_after": 0
+    }
+  ],
+  "vocab_audio": {
+    "過": "audio/vocab/00.wav",
+    "故人": "audio/vocab/01.wav",
+    "莊": "audio/vocab/02.wav",
+    "具": "audio/vocab/03.wav",
+    "雞黍": "audio/vocab/04.wav",
+    "邀": "audio/vocab/05.wav",
+    "至": "audio/vocab/06.wav",
+    "田家": "audio/vocab/07.wav",
+    "合": "audio/vocab/08.wav",
+    "郭": "audio/vocab/09.wav",
+    "斜": "audio/vocab/10.wav",
+    "軒": "audio/vocab/11.wav",
+    "面": "audio/vocab/12.wav",
+    "場": "audio/vocab/13.wav",
+    "圃": "audio/vocab/14.wav",
+    "把": "audio/vocab/15.wav",
+    "話": "audio/vocab/16.wav",
+    "桑麻": "audio/vocab/17.wav",
+    "待到": "audio/vocab/18.wav",
+    "重陽": "audio/vocab/19.wav",
+    "還來": "audio/vocab/20.wav",
+    "就": "audio/vocab/21.wav",
+    "菊花": "audio/vocab/22.wav"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "s7-14",
+  "kind": "cue",
+  "text": "下次，也邀請你的好朋友來家裡玩吧！",
+  "speaker": "旁白",
+  "voice": "Sulafat",
+  "prompt": "### DIRECTOR'S NOTES\nYou are the narrator of a warm animated story for 8-year-old Taiwanese children. Speak clear, gentle but lively Taiwanese Mandarin at a natural storytelling pace (never slow or dragging). Read ONLY the text below, verbatim, adding nothing.\n\n### TRANSCRIPT\n下次，也邀請你的好朋友來家裡玩吧！",
+  "model": "gemini-3.8-flash-tts",
+  "audio": "audio/cues/s7-14.wav",
+  "duration": 3.106333,
+  "generatedAt": "2026-10-04T17:43:17.059Z",
+  "qa": {
+    "pass": true,
+    "threshold": 0.85,
+    "sim": 1,
+    "charSim": 1,
+    "pinyinSim": null,
+    "lenRatio": 1,
+    "headSim": 1,
+    "rateOk": true,
+    "reasons": [],
+    "transcript": "下次也邀請你的好朋友來家裡玩吧。",
+    "headTranscript": "下次也邀請你的好朋友來家裡玩吧。",
+    "attempts": 1,
+    "chosenAttempt": 1,
+    "transcriber": "gemini-2.5-flash",
+    "history": [
+      {
+        "attempt": 1,
+        "pass": true,
+        "sim": 1,
+        "charSim": 1,
+        "pinyinSim": null,
+        "lenRatio": 1,
+        "duration": 3.106,
+        "reasons": [],
+        "transcript": "下次也邀請你的好朋友來家裡玩吧。",
+        "headTranscript": "下次也邀請你的好朋友來家裡玩吧。"
+      }
+    ]
+  }
+}

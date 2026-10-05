@@ -1,0 +1,43 @@
+{
+  "id": "s6-5",
+  "kind": "cue",
+  "text": "第四張圖：日曆翻到九月九，菊花開得滿院子。待到重陽日，孩來就菊花。",
+  "display": "第四張圖：日曆翻到九月九，菊花開得滿院子。待到重陽日，還來就菊花。",
+  "speaker": "旁白",
+  "voice": "Sulafat",
+  "prompt": "### DIRECTOR'S NOTES\nYou are the narrator of a warm animated story for 8-year-old Taiwanese children. Speak clear, gentle but lively Taiwanese Mandarin at a natural storytelling pace (never slow or dragging). Read ONLY the text below, verbatim, adding nothing.\n\n### TRANSCRIPT\n第四張圖：日曆翻到九月九，菊花開得滿院子。待到重陽日，孩來就菊花。",
+  "model": "gemini-3.8-flash-tts",
+  "audio": "audio/cues/s6-5.wav",
+  "duration": 10.665333,
+  "generatedAt": "2026-10-05T02:00:58.481Z",
+  "qa": {
+    "pass": true,
+    "threshold": 0.85,
+    "sim": 0.929,
+    "charSim": 0.929,
+    "pinyinSim": null,
+    "lenRatio": 1,
+    "headSim": 0.941,
+    "rateOk": true,
+    "reasons": [],
+    "transcript": "第四張圖，日曆翻到九月九，菊花開的滿院子，待到重陽日，還來就菊花。",
+    "headTranscript": "第四張圖。 日曆翻到9月9,菊花開的滿院。",
+    "attempts": 1,
+    "chosenAttempt": 1,
+    "transcriber": "gemini-2.5-flash",
+    "history": [
+      {
+        "attempt": 1,
+        "pass": true,
+        "sim": 0.929,
+        "charSim": 0.929,
+        "pinyinSim": null,
+        "lenRatio": 1,
+        "duration": 10.665,
+        "reasons": [],
+        "transcript": "第四張圖，日曆翻到九月九，菊花開的滿院子，待到重陽日，還來就菊花。",
+        "headTranscript": "第四張圖。 日曆翻到9月9,菊花開的滿院。"
+      }
+    ]
+  }
+}

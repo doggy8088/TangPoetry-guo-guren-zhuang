@@ -1,0 +1,43 @@
+{
+  "id": "s5-3",
+  "kind": "cue",
+  "text": "那我們約好！「待到重陽日」，等到農曆九月九日重陽節那天，你「孩來」，再來我家！那時候，我家院子裡的菊花會開得滿滿的，我們一起「就菊花」，一起賞菊花！",
+  "display": "那我們約好！「待到重陽日」，等到農曆九月九日重陽節那天，你「還來」，再來我家！那時候，我家院子裡的菊花會開得滿滿的，我們一起「就菊花」，一起賞菊花！",
+  "speaker": "小玉",
+  "voice": "Leda",
+  "prompt": "### DIRECTOR'S NOTES\nYou are voicing 小玉, a cheerful, kind 8-year-old Taiwanese girl who lives on a farm. Speak natural, bright Taiwanese Mandarin in a child's voice at a lively pace. Read ONLY the line below, verbatim, adding nothing.\n\n### TRANSCRIPT\n那我們約好！「待到重陽日」，等到農曆九月九日重陽節那天，你「孩來」，再來我家！那時候，我家院子裡的菊花會開得滿滿的，我們一起「就菊花」，一起賞菊花！",
+  "model": "gemini-3.8-flash-tts",
+  "audio": "audio/cues/s5-3.wav",
+  "duration": 13.748625,
+  "generatedAt": "2026-10-05T02:00:37.225Z",
+  "qa": {
+    "pass": true,
+    "threshold": 0.85,
+    "sim": 0.966,
+    "charSim": 0.966,
+    "pinyinSim": null,
+    "lenRatio": 1,
+    "headSim": 0.96,
+    "rateOk": true,
+    "reasons": [],
+    "transcript": "那我們約好,待到重陽日,等到農曆9月9日重陽節那天,你還來,再來我家。那時候我家院子裡的菊花會開的滿滿的,我們一起就菊花,一起賞菊花。",
+    "headTranscript": "那我們約好,待到重陽日,等到農曆9月9日重陽節那天,你還",
+    "attempts": 1,
+    "chosenAttempt": 1,
+    "transcriber": "gemini-2.5-flash",
+    "history": [
+      {
+        "attempt": 1,
+        "pass": true,
+        "sim": 0.966,
+        "charSim": 0.966,
+        "pinyinSim": null,
+        "lenRatio": 1,
+        "duration": 13.749,
+        "reasons": [],
+        "transcript": "那我們約好,待到重陽日,等到農曆9月9日重陽節那天,你還來,再來我家。那時候我家院子裡的菊花會開的滿滿的,我們一起就菊花,一起賞菊花。",
+        "headTranscript": "那我們約好,待到重陽日,等到農曆9月9日重陽節那天,你還"
+      }
+    ]
+  }
+}

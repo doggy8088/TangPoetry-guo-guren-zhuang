@@ -1,0 +1,48 @@
+Page:      http://127.0.0.1:5173/index.html?render=1 (own static server over /Users/will/games/guo-guren-zhuang)
+Browser:   Chromium 153.0.8010.12 (headless), viewport 1080x1920, capture=cdp
+Ready:     player.ready resolved in 11.0s, player.duration = 479.376
+Timeline:  total 479.376s matches player.duration
+Narration: audio/narration.m4a (479.38s)
+BGM:       audio/bgm.m4a looped at volume 0.25
+Audio:     pre-mixed 479.400s (narration + BGM x0.25) in 0.7s
+Frames:    0..14381 (14382 frames, 479.400s from t=0.000s) @ 30 fps, 4 workers
+Output:    out/guo-guren-zhuang.mp4 1080x1920 x264 slow crf 18, JPEG q92 (ffmpeg log: out/guo-guren-zhuang.ffmpeg.log)
+frame   600/14382   4.2%  57.7 fps (avg 57.7)  elapsed 0:10  ETA 3:59  176.7 MB in
+frame  1200/14382   8.3%  58.0 fps (avg 57.9)  elapsed 0:21  ETA 3:47  348.8 MB in
+frame  1770/14382  12.3%  54.4 fps (avg 56.7)  elapsed 0:31  ETA 3:52  523.8 MB in
+frame  2340/14382  16.3%  55.3 fps (avg 56.3)  elapsed 0:42  ETA 3:38  696.5 MB in
+frame  2910/14382  20.2%  56.9 fps (avg 56.4)  elapsed 0:52  ETA 3:22  862.6 MB in
+frame  3540/14382  24.6%  60.2 fps (avg 57.1)  elapsed 1:02  ETA 3:00  1026.2 MB in
+frame  4140/14382  28.8%  58.7 fps (avg 57.3)  elapsed 1:12  ETA 2:54  1189.3 MB in
+frame  4740/14382  33.0%  59.5 fps (avg 57.6)  elapsed 1:22  ETA 2:42  1359.6 MB in
+frame  5340/14382  37.1%  58.0 fps (avg 57.6)  elapsed 1:33  ETA 2:36  1530.0 MB in
+frame  5910/14382  41.1%  53.9 fps (avg 57.2)  elapsed 1:43  ETA 2:37  1711.4 MB in
+frame  6450/14382  44.8%  52.0 fps (avg 56.8)  elapsed 1:54  ETA 2:33  1880.7 MB in
+frame  7020/14382  48.8%  54.5 fps (avg 56.6)  elapsed 2:04  ETA 2:15  2051.9 MB in
+frame  7530/14382  52.4%  50.6 fps (avg 56.1)  elapsed 2:14  ETA 2:15  2207.5 MB in
+frame  8040/14382  55.9%  50.0 fps (avg 55.7)  elapsed 2:24  ETA 2:07  2388.1 MB in
+frame  8580/14382  59.7%  53.4 fps (avg 55.5)  elapsed 2:35  ETA 1:49  2557.0 MB in
+frame  9120/14382  63.4%  53.0 fps (avg 55.4)  elapsed 2:45  ETA 1:39  2711.8 MB in
+frame  9690/14382  67.4%  54.3 fps (avg 55.3)  elapsed 2:55  ETA 1:26  2893.0 MB in
+frame 10230/14382  71.1%  53.1 fps (avg 55.2)  elapsed 3:05  ETA 1:18  3068.8 MB in
+frame 10800/14382  75.1%  54.5 fps (avg 55.2)  elapsed 3:16  ETA 1:06  3284.7 MB in
+frame 11370/14382  79.1%  54.4 fps (avg 55.1)  elapsed 3:26  ETA 0:55  3533.8 MB in
+frame 11910/14382  82.8%  53.5 fps (avg 55.0)  elapsed 3:36  ETA 0:46  3784.7 MB in
+frame 12420/14382  86.4%  50.1 fps (avg 54.8)  elapsed 3:47  ETA 0:39  4012.8 MB in
+frame 12900/14382  89.7%  46.7 fps (avg 54.5)  elapsed 3:57  ETA 0:32  4204.4 MB in
+frame 13380/14382  93.0%  47.2 fps (avg 54.2)  elapsed 4:07  ETA 0:21  4401.0 MB in
+frame 13860/14382  96.4%  46.9 fps (avg 53.9)  elapsed 4:17  ETA 0:11  4597.4 MB in
+frame 14310/14382  99.5%  43.8 fps (avg 53.5)  elapsed 4:28  ETA 0:02  4763.6 MB in
+frame 14382/14382 100.0%  45.8 fps (avg 53.4)  elapsed 4:29  ETA 0:00  4788.3 MB in
+Encoding:  waiting for ffmpeg to finish...
+Encoding:  ffmpeg exited with code 0 2.7s after the last frame
+Capture:   14382 frames in 4:29 = 53.4 fps overall (4 workers; per frame avg 75 ms, p95 109 ms, max 239 ms; 0.3 MB JPEG/frame avg)
+
+ffprobe out/guo-guren-zhuang.mp4
+  duration    479.400s video / 479.400s container (expected 479.400s)
+  resolution  1080x1920  h264 High yuv420p tv/bt709
+  fps         30  (14382 frames)
+  audio       aac 48000 Hz 2ch 479.400s 160 kb/s
+  size        121.2 MB (127068138 bytes)
+
+Done: out/guo-guren-zhuang.mp4

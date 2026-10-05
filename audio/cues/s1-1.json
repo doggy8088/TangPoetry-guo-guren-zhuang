@@ -1,0 +1,42 @@
+{
+  "id": "s1-1",
+  "kind": "cue",
+  "text": "小玉住在一個小村子裡，家裡有田、有菜園，還養了好多雞。她和阿庭從小就是好朋友，是彼此的「故人」。",
+  "speaker": "旁白",
+  "voice": "Sulafat",
+  "prompt": "### DIRECTOR'S NOTES\nYou are the narrator of a warm animated story for 8-year-old Taiwanese children. Speak clear, gentle but lively Taiwanese Mandarin at a natural storytelling pace (never slow or dragging). Read ONLY the text below, verbatim, adding nothing.\n\n### TRANSCRIPT\n小玉住在一個小村子裡，家裡有田、有菜園，還養了好多雞。她和阿庭從小就是好朋友，是彼此的「故人」。",
+  "model": "gemini-3.8-flash-tts",
+  "audio": "audio/cues/s1-1.wav",
+  "duration": 11.647375,
+  "generatedAt": "2026-10-04T17:41:43.824Z",
+  "qa": {
+    "pass": true,
+    "threshold": 0.85,
+    "sim": 0.95,
+    "charSim": 0.95,
+    "pinyinSim": null,
+    "lenRatio": 1,
+    "headSim": 1,
+    "rateOk": true,
+    "reasons": [],
+    "transcript": "小玉住在一個小村子裡,家裡有田,有菜園,還養了好多雞,他和阿婷從小就是好朋友,是彼此的故人。",
+    "headTranscript": "小玉住在一個小村子裡,家裡有田,有菜園,還養了好",
+    "attempts": 1,
+    "chosenAttempt": 1,
+    "transcriber": "gemini-2.5-flash",
+    "history": [
+      {
+        "attempt": 1,
+        "pass": true,
+        "sim": 0.95,
+        "charSim": 0.95,
+        "pinyinSim": null,
+        "lenRatio": 1,
+        "duration": 11.647,
+        "reasons": [],
+        "transcript": "小玉住在一個小村子裡,家裡有田,有菜園,還養了好多雞,他和阿婷從小就是好朋友,是彼此的故人。",
+        "headTranscript": "小玉住在一個小村子裡,家裡有田,有菜園,還養了好"
+      }
+    ]
+  }
+}

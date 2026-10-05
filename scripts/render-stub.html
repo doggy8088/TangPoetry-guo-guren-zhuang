@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<title>render stub</title>
+<!--
+  Stand-in for index.html?render=1 so scripts/render.mjs can be tested before
+  the real page exists. Fulfils the same contract:
+    window.player = { ready: Promise<void>, duration: number, seek(t): void }
+  Everything on screen is a pure function of t (no clocks, no CSS animation).
+  ?heavy=1 adds an SVG layer with turbulence filters, gradients and ~200 shapes
+  to approximate the paper-cut / watercolour art of the real page.
+  ?duration=<sec> overrides the 12 s default.
+  Test hooks for the renderer's safety nets (never used by render:test):
+  ?hang=<sec>   seek() busy-waits 60 s at that time (exercises the frame watchdog)
+  ?nondet=1     output depends on wall-clock time (must fail --check)
+-->
+<style>
+  html, body { margin: 0; padding: 0; background: #f4ecd8; overflow: hidden; }
+  #stage {
+    position: absolute; left: 0; top: 0; width: 1080px; height: 1920px;
+    overflow: hidden; background: linear-gradient(#bfe3f2, #f7efd9 70%, #d8c9a3);
+    font-family: "PingFang TC", "Noto Sans TC", "Heiti TC", system-ui, sans-serif;
+  }
+  #heavy { position: absolute; inset: 0; }
+  #ball {
+    position: absolute; left: 0; top: 0; width: 220px; height: 220px; border-radius: 50%;
+    background: radial-gradient(circle at 35% 30%, #ffd9a0, #e0703a 60%, #a8401c);
+    box-shadow: 0 30px 60px rgba(80, 40, 10, .35);
+  }
+  #square {
+    position: absolute; left: 790px; top: 1380px; width: 180px; height: 180px;
+    background: #2e6fa7; border-radius: 24px; box-shadow: 0 20px 40px rgba(0,0,0,.25);
+  }
+  #time {
+    position: absolute; left: 0; right: 0; top: 260px; text-align: center;
+    font-size: 210px; font-weight: 800; color: #2b2b2b; letter-spacing: 4px;
+    font-variant-numeric: tabular-nums;
+  }
+  #frame {
+    position: absolute; left: 0; right: 0; top: 520px; text-align: center;
+    font-size: 72px; color: #4b5d3a; font-variant-numeric: tabular-nums;
+  }
+  #caption {
+    position: absolute; left: 80px; right: 80px; bottom: 180px; padding: 36px 48px;
+    background: #fffaf0; border-radius: 40px; font-size: 64px; color: #2b2b2b;
+    box-shadow: 0 10px 30px rgba(0,0,0,.15);
+  }
+  #flash {
+    position: absolute; right: 60px; top: 60px; width: 120px; height: 120px; border-radius: 50%;
+    background: #c8553d;
+  }
+  #bar { position: absolute; left: 0; bottom: 0; height: 24px; background: #c8553d; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="heavy"></div>
+  <div id="ball"></div>
+  <div id="square"></div>
+  <div id="time">0.000</div>
+  <div id="frame">frame 0</div>
+  <div id="flash"></div>
+  <div id="caption"><b style="color:#c8553d">小玉：</b><span id="captext"></span></div>
+  <div id="bar"></div>
+</div>
+<script>
+(() => {
+  const params = new URLSearchParams(location.search);
+  const DURATION = Number(params.get('duration')) || 12;
+  const FPS = 30;
+  const $ = (id) => document.getElementById(id);
+  const ball = $('ball'), square = $('square'), timeEl = $('time'), frameEl = $('frame');
+  const flash = $('flash'), bar = $('bar'), captext = $('captext');
+  const lines = ['故人具雞黍，', '邀我至田家。', '綠樹村邊合，', '青山郭外斜。'];
+
+  let shapes = [];
+  if (params.get('heavy') === '1') {
+    // Deterministic pseudo-random layout (mulberry32) so every load is identical.
+    let seed = 1234567;
+    const rnd = () => { seed |= 0; seed = seed + 0x6D2B79F5 | 0; let t = Math.imul(seed ^ seed >>> 15, 1 | seed);
+      t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; };
+    const NS = 'http://www.w3.org/2000/svg';
+    const svg = document.createElementNS(NS, 'svg');
+    svg.setAttribute('width', 1080); svg.setAttribute('height', 1920); svg.setAttribute('viewBox', '0 0 1080 1920');
+    svg.innerHTML = `
+      <defs>
+        <filter id="paper" x="0" y="0" width="100%" height="100%">
+          <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" seed="7" result="n"/>
+          <feColorMatrix type="saturate" values="0"/>
+          <feComponentTransfer><feFuncA type="table" tableValues="0 0.18"/></feComponentTransfer>
+          <feComposite in2="SourceGraphic" operator="in"/>
+          <feBlend in="SourceGraphic" mode="multiply"/>
+        </filter>
+        <filter id="wash"><feTurbulence baseFrequency="0.02" numOctaves="2" seed="3"/>
+          <feDisplacementMap in="SourceGraphic" scale="30"/></filter>
+        <linearGradient id="hill" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#7fb069"/><stop offset="1" stop-color="#3f7d4a"/></linearGradient>
+      </defs>
+      <rect width="1080" height="1920" fill="#e9f3ee" filter="url(#paper)" opacity=".6"/>
+      <g id="hills" filter="url(#wash)">
+        <path d="M-50 1300 Q 250 1000 540 1250 T 1130 1180 V 1920 H -50 Z" fill="url(#hill)"/>
+        <path d="M-50 1450 Q 300 1250 640 1420 T 1130 1380 V 1920 H -50 Z" fill="#5c9a58" opacity=".85"/>
+      </g>
+      <g id="shapes"></g>`;
+    const g = svg.querySelector('#shapes');
+    for (let i = 0; i < 200; i++) {
+      const c = document.createElementNS(NS, i % 3 ? 'circle' : 'rect');
+      const x = rnd() * 1080, y = 700 + rnd() * 1100, r = 10 + rnd() * 40;
+      const hue = Math.floor(80 + rnd() * 60);
+      if (c.tagName === 'circle') { c.setAttribute('r', r); }
+      else { c.setAttribute('width', r * 1.6); c.setAttribute('height', r * 1.6); c.setAttribute('rx', 6); }
+      c.setAttribute('fill', `hsl(${hue} 45% ${40 + rnd() * 25}%)`);
+      c.setAttribute('opacity', 0.6 + rnd() * 0.4);
+      g.appendChild(c);
+      shapes.push({ el: c, x, y, phase: rnd() * 6.283, amp: 10 + rnd() * 30, isCircle: c.tagName === 'circle' });
+    }
+    $('heavy').appendChild(svg);
+  }
+
+  const HANG = params.has('hang') ? Number(params.get('hang')) : null;
+  const NONDET = params.get('nondet') === '1';
+
+  function seek(t) {
+    t = Math.max(0, Math.min(DURATION, Number(t) || 0));
+    if (HANG !== null && Math.abs(t - HANG) < 1e-6) { const until = Date.now() + 60000; while (Date.now() < until); }
+    const p = t / DURATION;
+    // Lissajous path for the ball.
+    const x = 430 + 330 * Math.sin(t * 1.3);
+    const y = 900 + 260 * Math.sin(t * 0.9 + 1);
+    ball.style.transform = `translate(${x.toFixed(2)}px, ${y.toFixed(2)}px) scale(${(1 + 0.15 * Math.sin(t * 4)).toFixed(4)})`;
+    square.style.transform = `rotate(${(t * 90).toFixed(3)}deg)`;
+    timeEl.textContent = t.toFixed(3);
+    frameEl.textContent = `frame ${Math.round(t * FPS)}  ·  ${(p * 100).toFixed(1)}%`;
+    // Flash for the first 100 ms of every whole second (matches the test-tone beeps).
+    flash.style.opacity = (t % 1) < 0.1 ? '1' : '0.15';
+    bar.style.width = `${(p * 1080).toFixed(2)}px`;
+    captext.textContent = lines[Math.floor(t / 3) % lines.length] + (NONDET ? ` ${performance.now().toFixed(0)}` : '');
+    for (const s of shapes) {
+      const dx = s.amp * Math.sin(t * 1.7 + s.phase), dy = s.amp * Math.cos(t * 1.1 + s.phase);
+      if (s.isCircle) { s.el.setAttribute('cx', (s.x + dx).toFixed(2)); s.el.setAttribute('cy', (s.y + dy).toFixed(2)); }
+      else { s.el.setAttribute('x', (s.x + dx).toFixed(2)); s.el.setAttribute('y', (s.y + dy).toFixed(2)); }
+    }
+  }
+
+  seek(0);
+  window.player = {
+    duration: DURATION,
+    seek,
+    ready: document.fonts.ready.then(() => new Promise((r) => requestAnimationFrame(() => r()))),
+  };
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+{
+  "id": "s2-5",
+  "kind": "cue",
+  "text": "那座山斜斜的，好像一個睡著的綠色巨人喔！",
+  "speaker": "阿庭",
+  "voice": "Puck",
+  "prompt": "### DIRECTOR'S NOTES\nYou are voicing 阿庭, a curious, energetic 8-year-old Taiwanese boy visiting the countryside. Speak natural, excited Taiwanese Mandarin in a child's voice at a lively pace. Read ONLY the line below, verbatim, adding nothing.\n\n### TRANSCRIPT\n那座山斜斜的，好像一個睡著的綠色巨人喔！",
+  "model": "gemini-3.8-flash-tts",
+  "audio": "audio/cues/s2-5.wav",
+  "duration": 4.592958,
+  "generatedAt": "2026-10-05T03:46:07.253Z",
+  "qa": {
+    "pass": true,
+    "threshold": 0.85,
+    "sim": 1,
+    "charSim": 1,
+    "pinyinSim": null,
+    "lenRatio": 1,
+    "headSim": 0.944,
+    "rateOk": true,
+    "reasons": [],
+    "transcript": "那座山斜斜的，好像一個睡著的綠色巨人喔。",
+    "headTranscript": "那座山斜斜的,好像一個睡著的綠色巨人哦。",
+    "attempts": 1,
+    "chosenAttempt": 1,
+    "transcriber": "gemini-2.5-flash",
+    "history": [
+      {
+        "attempt": 1,
+        "pass": true,
+        "sim": 1,
+        "charSim": 1,
+        "pinyinSim": null,
+        "lenRatio": 1,
+        "duration": 4.593,
+        "reasons": [],
+        "transcript": "那座山斜斜的，好像一個睡著的綠色巨人喔。",
+        "headTranscript": "那座山斜斜的,好像一個睡著的綠色巨人哦。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "s6-3",
+  "kind": "cue",
+  "text": "第二張圖：綠樹牽著手圍成圈，青山斜斜躺在牆外。綠樹村邊合，青山郭外霞。",
+  "display": "第二張圖：綠樹牽著手圍成圈，青山斜斜躺在牆外。綠樹村邊合，青山郭外斜。",
+  "speaker": "旁白",
+  "voice": "Sulafat",
+  "prompt": "### DIRECTOR'S NOTES\nYou are the narrator of a warm animated story for 8-year-old Taiwanese children. Speak clear, gentle but lively Taiwanese Mandarin at a natural storytelling pace (never slow or dragging). Read ONLY the text below, verbatim, adding nothing.\n\n### TRANSCRIPT\n第二張圖：綠樹牽著手圍成圈，青山斜斜躺在牆外。綠樹村邊合，青山郭外霞。",
+  "model": "gemini-3.8-flash-tts",
+  "audio": "audio/cues/s6-3.wav",
+  "duration": 10.671292,
+  "generatedAt": "2026-10-05T03:46:14.143Z",
+  "qa": {
+    "pass": true,
+    "threshold": 0.85,
+    "sim": 0.9,
+    "charSim": 0.9,
+    "pinyinSim": null,
+    "lenRatio": 1,
+    "headSim": 1,
+    "rateOk": true,
+    "reasons": [],
+    "transcript": "第二章圖，綠樹牽著手圍成圈，青山斜斜躺在牆外，綠樹村邊合，青山鍋外蝦。",
+    "headTranscript": "第二張圖,綠樹牽著手圍成圈,青山斜斜躺在",
+    "attempts": 1,
+    "chosenAttempt": 1,
+    "transcriber": "gemini-2.5-flash",
+    "history": [
+      {
+        "attempt": 1,
+        "pass": true,
+        "sim": 0.9,
+        "charSim": 0.9,
+        "pinyinSim": null,
+        "lenRatio": 1,
+        "duration": 10.671,
+        "reasons": [],
+        "transcript": "第二章圖，綠樹牽著手圍成圈，青山斜斜躺在牆外，綠樹村邊合，青山鍋外蝦。",
+        "headTranscript": "第二張圖,綠樹牽著手圍成圈,青山斜斜躺在"
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "v10",
+  "kind": "vocab",
+  "word": "斜",
+  "text": "「霞」，斜斜地延伸。",
+  "speaker": "旁白",
+  "voice": "Sulafat",
+  "prompt": "### DIRECTOR'S NOTES\nYou are the narrator of a warm animated story for 8-year-old Taiwanese children. Speak clear, gentle but lively Taiwanese Mandarin at a natural storytelling pace (never slow or dragging). Read ONLY the text below, verbatim, adding nothing.\n\n### TRANSCRIPT\n「霞」，斜斜地延伸。",
+  "model": "gemini-3.8-flash-tts",
+  "audio": "audio/vocab/10.wav",
+  "duration": 2.532958,
+  "generatedAt": "2026-10-05T03:46:21.107Z",
+  "qa": {
+    "pass": true,
+    "threshold": 0.75,
+    "sim": 1,
+    "charSim": 0.667,
+    "pinyinSim": 1,
+    "lenRatio": 1,
+    "headSim": 1,
+    "rateOk": true,
+    "reasons": [],
+    "transcript": "狹斜斜的延伸",
+    "headTranscript": "俠,斜斜的延伸。",
+    "attempts": 1,
+    "chosenAttempt": 1,
+    "transcriber": "gemini-2.5-flash",
+    "history": [
+      {
+        "attempt": 1,
+        "pass": true,
+        "sim": 1,
+        "charSim": 0.667,
+        "pinyinSim": 1,
+        "lenRatio": 1,
+        "duration": 2.533,
+        "reasons": [],
+        "transcript": "狹斜斜的延伸",
+        "headTranscript": "俠,斜斜的延伸。"
+      }
+    ]
+  }
+}

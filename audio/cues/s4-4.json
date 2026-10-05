@@ -1,0 +1,42 @@
+{
+  "id": "s4-4",
+  "kind": "cue",
+  "text": "那「麻」是什麼呢？",
+  "speaker": "阿庭",
+  "voice": "Puck",
+  "prompt": "### DIRECTOR'S NOTES\nYou are voicing 阿庭, a curious, energetic 8-year-old Taiwanese boy visiting the countryside. Speak natural, excited Taiwanese Mandarin in a child's voice at a lively pace. Read ONLY the line below, verbatim, adding nothing.\n\n### TRANSCRIPT\n那「麻」是什麼呢？",
+  "model": "gemini-3.8-flash-tts",
+  "audio": "audio/cues/s4-4.wav",
+  "duration": 2.486708,
+  "generatedAt": "2026-10-04T17:42:25.817Z",
+  "qa": {
+    "pass": true,
+    "threshold": 0.85,
+    "sim": 1,
+    "charSim": 1,
+    "pinyinSim": null,
+    "lenRatio": 1,
+    "headSim": 0.857,
+    "rateOk": true,
+    "reasons": [],
+    "transcript": "那麻是什麼呢？",
+    "headTranscript": "哎那麻是什麼呢?",
+    "attempts": 1,
+    "chosenAttempt": 1,
+    "transcriber": "gemini-2.5-flash",
+    "history": [
+      {
+        "attempt": 1,
+        "pass": true,
+        "sim": 1,
+        "charSim": 1,
+        "pinyinSim": null,
+        "lenRatio": 1,
+        "duration": 2.487,
+        "reasons": [],
+        "transcript": "那麻是什麼呢？",
+        "headTranscript": "哎那麻是什麼呢?"
+      }
+    ]
+  }
+}

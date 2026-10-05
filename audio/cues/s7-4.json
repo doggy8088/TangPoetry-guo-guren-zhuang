@@ -1,0 +1,42 @@
+{
+  "id": "s7-4",
+  "kind": "cue",
+  "text": "故人具雞黍，邀我至田家！",
+  "speaker": "旁白",
+  "voice": "Sulafat",
+  "prompt": "### DIRECTOR'S NOTES\nYou are the narrator of a warm animated story for 8-year-old Taiwanese children. Speak clear, gentle but lively Taiwanese Mandarin at a natural storytelling pace (never slow or dragging). Read ONLY the text below, verbatim, adding nothing.\n\n### TRANSCRIPT\n故人具雞黍，邀我至田家！",
+  "model": "gemini-3.8-flash-tts",
+  "audio": "audio/cues/s7-4.wav",
+  "duration": 2.682792,
+  "generatedAt": "2026-10-04T17:43:00.203Z",
+  "qa": {
+    "pass": true,
+    "threshold": 0.85,
+    "sim": 1,
+    "charSim": 1,
+    "pinyinSim": null,
+    "lenRatio": 1,
+    "headSim": 1,
+    "rateOk": true,
+    "reasons": [],
+    "transcript": "故人具雞黍，邀我至田家。",
+    "headTranscript": "故人具雞黍,邀我至田家。",
+    "attempts": 1,
+    "chosenAttempt": 1,
+    "transcriber": "gemini-2.5-flash",
+    "history": [
+      {
+        "attempt": 1,
+        "pass": true,
+        "sim": 1,
+        "charSim": 1,
+        "pinyinSim": null,
+        "lenRatio": 1,
+        "duration": 2.683,
+        "reasons": [],
+        "transcript": "故人具雞黍，邀我至田家。",
+        "headTranscript": "故人具雞黍,邀我至田家。"
+      }
+    ]
+  }
+}

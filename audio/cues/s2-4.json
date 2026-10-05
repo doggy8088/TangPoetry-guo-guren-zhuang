@@ -1,0 +1,43 @@
+{
+  "id": "s2-4",
+  "kind": "cue",
+  "text": "再往遠處看，村子外面有一道矮矮的牆，叫做「鍋」。鍋的外面，青色的山坡斜斜地躺著，一路延伸到天邊。",
+  "display": "再往遠處看，村子外面有一道矮矮的牆，叫做「郭」。郭的外面，青色的山坡斜斜地躺著，一路延伸到天邊。",
+  "speaker": "旁白",
+  "voice": "Sulafat",
+  "prompt": "### DIRECTOR'S NOTES\nYou are the narrator of a warm animated story for 8-year-old Taiwanese children. Speak clear, gentle but lively Taiwanese Mandarin at a natural storytelling pace (never slow or dragging). Read ONLY the text below, verbatim, adding nothing.\n\n### TRANSCRIPT\n再往遠處看，村子外面有一道矮矮的牆，叫做「鍋」。鍋的外面，青色的山坡斜斜地躺著，一路延伸到天邊。",
+  "model": "gemini-3.8-flash-tts",
+  "audio": "audio/cues/s2-4.wav",
+  "duration": 10.647625,
+  "generatedAt": "2026-10-05T03:48:38.227Z",
+  "qa": {
+    "pass": true,
+    "threshold": 0.85,
+    "sim": 0.975,
+    "charSim": 0.975,
+    "pinyinSim": null,
+    "lenRatio": 1,
+    "headSim": 1,
+    "rateOk": true,
+    "reasons": [],
+    "transcript": "再往遠處看,村子外面有一道矮矮的牆,叫做鍋。 鍋的外面,青色的山坡斜斜的躺著,一路延伸到天邊。",
+    "headTranscript": "再往遠處看,村子外面有一道矮矮的牆,叫做鍋。 鍋的外面",
+    "attempts": 1,
+    "chosenAttempt": 1,
+    "transcriber": "gemini-2.5-flash",
+    "history": [
+      {
+        "attempt": 1,
+        "pass": true,
+        "sim": 0.975,
+        "charSim": 0.975,
+        "pinyinSim": null,
+        "lenRatio": 1,
+        "duration": 10.648,
+        "reasons": [],
+        "transcript": "再往遠處看,村子外面有一道矮矮的牆,叫做鍋。 鍋的外面,青色的山坡斜斜的躺著,一路延伸到天邊。",
+        "headTranscript": "再往遠處看,村子外面有一道矮矮的牆,叫做鍋。 鍋的外面"
+      }
+    ]
+  }
+}

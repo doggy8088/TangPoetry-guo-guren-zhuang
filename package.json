@@ -1,0 +1,24 @@
+{
+  "name": "guo-guren-zhuang",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "render": "node scripts/render.mjs",
+    "render:test": "node scripts/render.mjs --url \"http://localhost:5173/scripts/render-stub.html?heavy=1\" --out out/stub-test.mp4 --timeline none --test-tone --check",
+    "tts": "node scripts/tts.mjs",
+    "bgm": "node scripts/bgm.mjs",
+    "serve": "node scripts/serve.mjs 5173",
+    "snap": "node scripts/snap.mjs"
+  },
+  "keywords": [],
+  "type": "module",
+  "dependencies": {
+    "gsap": "^3.15.0",
+    "playwright": "^1.63.0"
+  }
+}

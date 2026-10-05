@@ -1,0 +1,43 @@
+{
+  "id": "s7-6",
+  "kind": "cue",
+  "text": "綠樹村邊合，青山郭外霞！",
+  "display": "綠樹村邊合，青山郭外斜！",
+  "speaker": "旁白",
+  "voice": "Sulafat",
+  "prompt": "### DIRECTOR'S NOTES\nYou are the narrator of a warm animated story for 8-year-old Taiwanese children. Speak clear, gentle but lively Taiwanese Mandarin at a natural storytelling pace (never slow or dragging). Read ONLY the text below, verbatim, adding nothing.\n\n### TRANSCRIPT\n綠樹村邊合，青山郭外霞！",
+  "model": "gemini-3.8-flash-tts",
+  "audio": "audio/cues/s7-6.wav",
+  "duration": 3.868833,
+  "generatedAt": "2026-10-05T03:46:14.973Z",
+  "qa": {
+    "pass": true,
+    "threshold": 0.85,
+    "sim": 0.9,
+    "charSim": 0.9,
+    "pinyinSim": null,
+    "lenRatio": 1,
+    "headSim": 0.8,
+    "rateOk": true,
+    "reasons": [],
+    "transcript": "綠樹村邊合，青山郭外斜。",
+    "headTranscript": "綠樹村邊合, 青山鍋外俠,",
+    "attempts": 1,
+    "chosenAttempt": 1,
+    "transcriber": "gemini-2.5-flash",
+    "history": [
+      {
+        "attempt": 1,
+        "pass": true,
+        "sim": 0.9,
+        "charSim": 0.9,
+        "pinyinSim": null,
+        "lenRatio": 1,
+        "duration": 3.869,
+        "reasons": [],
+        "transcript": "綠樹村邊合，青山郭外斜。",
+        "headTranscript": "綠樹村邊合, 青山鍋外俠,"
+      }
+    ]
+  }
+}

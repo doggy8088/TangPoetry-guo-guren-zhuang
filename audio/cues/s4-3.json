@@ -1,0 +1,42 @@
+{
+  "id": "s4-3",
+  "kind": "cue",
+  "text": "我們家的桑樹長得好高了！桑葉可以餵蠶寶寶，蠶寶寶吐的絲可以做成漂亮的絲綢喔。",
+  "speaker": "小玉",
+  "voice": "Leda",
+  "prompt": "### DIRECTOR'S NOTES\nYou are voicing 小玉, a cheerful, kind 8-year-old Taiwanese girl who lives on a farm. Speak natural, bright Taiwanese Mandarin in a child's voice at a lively pace. Read ONLY the line below, verbatim, adding nothing.\n\n### TRANSCRIPT\n我們家的桑樹長得好高了！桑葉可以餵蠶寶寶，蠶寶寶吐的絲可以做成漂亮的絲綢喔。",
+  "model": "gemini-3.8-flash-tts",
+  "audio": "audio/cues/s4-3.wav",
+  "duration": 7.065458,
+  "generatedAt": "2026-10-04T17:42:28.222Z",
+  "qa": {
+    "pass": true,
+    "threshold": 0.85,
+    "sim": 0.971,
+    "charSim": 0.971,
+    "pinyinSim": null,
+    "lenRatio": 1,
+    "headSim": 1,
+    "rateOk": true,
+    "reasons": [],
+    "transcript": "我們家的桑樹長得好高了,桑葉可以餵蠶寶寶,蠶寶寶吐的絲可以做成漂亮的絲綢哦。",
+    "headTranscript": "我們家的桑樹長得好高了,桑葉可以餵蠶寶寶,蠶寶寶吐的絲可以做成",
+    "attempts": 1,
+    "chosenAttempt": 1,
+    "transcriber": "gemini-2.5-flash",
+    "history": [
+      {
+        "attempt": 1,
+        "pass": true,
+        "sim": 0.971,
+        "charSim": 0.971,
+        "pinyinSim": null,
+        "lenRatio": 1,
+        "duration": 7.065,
+        "reasons": [],
+        "transcript": "我們家的桑樹長得好高了,桑葉可以餵蠶寶寶,蠶寶寶吐的絲可以做成漂亮的絲綢哦。",
+        "headTranscript": "我們家的桑樹長得好高了,桑葉可以餵蠶寶寶,蠶寶寶吐的絲可以做成"
+      }
+    ]
+  }
+}

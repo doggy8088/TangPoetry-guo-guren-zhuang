@@ -1,0 +1,43 @@
+{
+  "id": "s5-4",
+  "kind": "cue",
+  "text": "「待到」是等到；「重陽」是重陽節，農曆九月九日，是登高、賞菊花的節日。「孩來」是再來；「就」，是靠近、親近的意思，「就菊花」就是去親近菊花、欣賞菊花。",
+  "display": "「待到」是等到；「重陽」是重陽節，農曆九月九日，是登高、賞菊花的節日。「還來」是再來；「就」，是靠近、親近的意思，「就菊花」就是去親近菊花、欣賞菊花。",
+  "speaker": "旁白",
+  "voice": "Sulafat",
+  "prompt": "### DIRECTOR'S NOTES\nYou are the narrator of a warm animated story for 8-year-old Taiwanese children. Speak clear, gentle but lively Taiwanese Mandarin at a natural storytelling pace (never slow or dragging). Read ONLY the text below, verbatim, adding nothing.\n\n### TRANSCRIPT\n「待到」是等到；「重陽」是重陽節，農曆九月九日，是登高、賞菊花的節日。「孩來」是再來；「就」，是靠近、親近的意思，「就菊花」就是去親近菊花、欣賞菊花。",
+  "model": "gemini-3.8-flash-tts",
+  "audio": "audio/cues/s5-4.wav",
+  "duration": 18.320083,
+  "generatedAt": "2026-10-05T02:04:01.166Z",
+  "qa": {
+    "pass": true,
+    "threshold": 0.85,
+    "sim": 0.981,
+    "charSim": 0.981,
+    "pinyinSim": null,
+    "lenRatio": 1,
+    "headSim": 0.941,
+    "rateOk": true,
+    "reasons": [],
+    "transcript": "待到是等到，重陽是重陽節，農曆九月九日，是登高、賞菊花的節日。還來是再來，就，是靠近、親近的意思。就菊花就是去親近菊花、欣賞菊花。",
+    "headTranscript": "帶到是等到,重陽是重陽節,農曆9月9日。",
+    "attempts": 1,
+    "chosenAttempt": 1,
+    "transcriber": "gemini-2.5-flash",
+    "history": [
+      {
+        "attempt": 1,
+        "pass": true,
+        "sim": 0.981,
+        "charSim": 0.981,
+        "pinyinSim": null,
+        "lenRatio": 1,
+        "duration": 18.32,
+        "reasons": [],
+        "transcript": "待到是等到，重陽是重陽節，農曆九月九日，是登高、賞菊花的節日。還來是再來，就，是靠近、親近的意思。就菊花就是去親近菊花、欣賞菊花。",
+        "headTranscript": "帶到是等到,重陽是重陽節,農曆9月9日。"
+      }
+    ]
+  }
+}

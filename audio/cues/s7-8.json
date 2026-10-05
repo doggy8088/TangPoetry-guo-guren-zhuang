@@ -1,0 +1,78 @@
+{
+  "id": "s7-8",
+  "kind": "cue",
+  "text": "開軒面場圃，把酒話桑麻！",
+  "speaker": "旁白",
+  "voice": "Sulafat",
+  "prompt": "### DIRECTOR'S NOTES\nYou are the narrator of a warm animated story for 8-year-old Taiwanese children. Speak clear, gentle but lively Taiwanese Mandarin at a natural storytelling pace (never slow or dragging). Read ONLY the text below, verbatim, adding nothing.\n\n### TRANSCRIPT\n開軒面場圃，把酒話桑麻！",
+  "model": "gemini-3.8-flash-tts",
+  "audio": "audio/cues/s7-8.wav",
+  "duration": 3.541958,
+  "generatedAt": "2026-10-04T17:46:56.240Z",
+  "qa": {
+    "pass": true,
+    "threshold": 0.85,
+    "sim": 1,
+    "charSim": 0.8,
+    "pinyinSim": 1,
+    "lenRatio": 1,
+    "headSim": 1,
+    "rateOk": true,
+    "reasons": [],
+    "transcript": "開軒面長圃，拔酒話桑麻。",
+    "headTranscript": "開軒面長圃,拔酒化桑麻。",
+    "attempts": 4,
+    "chosenAttempt": 1,
+    "transcriber": "gemini-2.5-flash",
+    "history": [
+      {
+        "attempt": 1,
+        "pass": true,
+        "sim": 1,
+        "charSim": 0.8,
+        "pinyinSim": 1,
+        "lenRatio": 1,
+        "duration": 3.542,
+        "reasons": [],
+        "transcript": "開軒面長圃，拔酒話桑麻。",
+        "headTranscript": "開軒面長圃,拔酒化桑麻。"
+      },
+      {
+        "attempt": 2,
+        "pass": true,
+        "sim": 1,
+        "charSim": 0.8,
+        "pinyinSim": 1,
+        "lenRatio": 1,
+        "duration": 3.931,
+        "reasons": [],
+        "transcript": "開軒面長圃，拔九話桑麻。",
+        "headTranscript": "開軒面長圃, 拔酒話桑麻。"
+      },
+      {
+        "attempt": 3,
+        "pass": true,
+        "sim": 1,
+        "charSim": 0.8,
+        "pinyinSim": 1,
+        "lenRatio": 1,
+        "duration": 3.98,
+        "reasons": [],
+        "transcript": "開軒面長圃，拔酒話桑麻。",
+        "headTranscript": "開軒面長鋪，拔酒畫桑麻"
+      },
+      {
+        "attempt": 4,
+        "pass": true,
+        "sim": 1,
+        "charSim": 0.6,
+        "pinyinSim": 1,
+        "lenRatio": 1,
+        "duration": 3.197,
+        "reasons": [],
+        "transcript": "開軒面長圃，拔九畫桑麻。",
+        "headTranscript": "開軒面長譜,拔酒畫桑麻。"
+      }
+    ]
+  }
+}

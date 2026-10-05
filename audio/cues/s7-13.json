@@ -1,0 +1,42 @@
+{
+  "id": "s7-13",
+  "kind": "cue",
+  "text": "我們下次見！",
+  "speaker": "阿庭",
+  "voice": "Puck",
+  "prompt": "### DIRECTOR'S NOTES\nYou are voicing 阿庭, a curious, energetic 8-year-old Taiwanese boy visiting the countryside. Speak natural, excited Taiwanese Mandarin in a child's voice at a lively pace. Read ONLY the line below, verbatim, adding nothing.\n\n### TRANSCRIPT\n我們下次見！",
+  "model": "gemini-3.8-flash-tts",
+  "audio": "audio/cues/s7-13.wav",
+  "duration": 1.073167,
+  "generatedAt": "2026-10-04T17:43:15.418Z",
+  "qa": {
+    "pass": true,
+    "threshold": 0.85,
+    "sim": 1,
+    "charSim": 1,
+    "pinyinSim": null,
+    "lenRatio": 1,
+    "headSim": 1,
+    "rateOk": true,
+    "reasons": [],
+    "transcript": "我們下次見。",
+    "headTranscript": "我們下次見。",
+    "attempts": 1,
+    "chosenAttempt": 1,
+    "transcriber": "gemini-2.5-flash",
+    "history": [
+      {
+        "attempt": 1,
+        "pass": true,
+        "sim": 1,
+        "charSim": 1,
+        "pinyinSim": null,
+        "lenRatio": 1,
+        "duration": 1.073,
+        "reasons": [],
+        "transcript": "我們下次見。",
+        "headTranscript": "我們下次見。"
+      }
+    ]
+  }
+}
